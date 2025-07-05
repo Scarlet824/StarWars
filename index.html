@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Star Wars SWAPI.tech Browser</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>Star Wars</h1>
+    <nav id="resource-nav">
+      <button data-resource="people">People</button>
+      <button data-resource="films">Films</button>
+      <button data-resource="starships">Starships</button>
+      <button data-resource="vehicles">Vehicles</button>
+      <button data-resource="species">Species</button>
+      <button data-resource="planets">Planets</button>
+    </nav>
+  </header>
+
+  <main>
+    <div id="loading">Loading...</div>
+    <div id="error" class="hidden">Failed to load data. Please try again.</div>
+    <div id="items" class="grid"></div>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
