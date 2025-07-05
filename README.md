@@ -14,7 +14,7 @@ A single-page web application built with vanilla JavaScript and the Star Wars AP
 3. Open the index.html file in your preferred web browser
 
 ## Usage
-1. Use the search bar or category buttons to explore the Star Wars universe
+1. Use the category buttons to explore the Star Wars universe
 2. Click on an item (character, planet, or starship) to view its detailed information
 3. Follow links to related entities to learn more
 4. Navigate back or search again to continue exploring
